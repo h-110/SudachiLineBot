@@ -1,7 +1,7 @@
 module.exports.reply = function (textMessage) {
   var message;
 
-  if (textMessage.indexOf('阿波踊り') != -1 || textMessage.indexOf('阿波おどり') != -1 || || textMessage.indexOf('あわおどり') != -1) {
+  if (textMessage.indexOf('阿波踊り') != -1 || textMessage.indexOf('阿波おどり') != -1 || textMessage.indexOf('あわおどり') != -1) {
     message = '徳島で一番有名なお祭りなんじょ！また遊びに来てな〜';
   } else if (textMessage.indexOf('名前') != -1) {
     message = 'すだちくんって言うんじょ';
